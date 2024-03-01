@@ -1,0 +1,26 @@
+{
+  "dataset": "geolife",
+  "n_lt_train": 34752,
+  "n_lt_gen": 34752,
+  "n_runs": 5,
+  "lt_features": [
+    "latlon"
+  ],
+  "lt_lr": 0.001,
+  "lt_beta": 0.5,
+  "lt_latent_dim": 100,
+  "lt_epochs": 14,
+  "lt_batch_size": 256,
+  "n_raopt_train": 23168,
+  "n_raopt_test": 11584,
+  "raopt_features": [
+    "latlon"
+  ],
+  "raopt_max_len": 200,
+  "raopt_epochs": 1500,
+  "raopt_batch_size": 512,
+  "raopt_early_stop": 100,
+  "raopt_num_batches": 34752000,
+  "runtime_per_run": "2967.49s",
+  "runtime_total": "14837.45s"
+}

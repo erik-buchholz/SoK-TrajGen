@@ -1,0 +1,29 @@
+{
+  "dataset": "fs",
+  "n_lt_train": 1539,
+  "n_lt_gen": 1540,
+  "n_runs": 5,
+  "lt_features": [
+    "latlon",
+    "hour",
+    "day",
+    "category"
+  ],
+  "lt_lr": 0.001,
+  "lt_beta": 0.5,
+  "lt_latent_dim": 100,
+  "lt_epochs": 333,
+  "lt_batch_size": 256,
+  "n_raopt_train": 1026,
+  "n_raopt_test": 514,
+  "raopt_features": [
+    "latlon"
+  ],
+  "raopt_max_len": 144,
+  "raopt_epochs": 1500,
+  "raopt_batch_size": 256,
+  "raopt_early_stop": 250,
+  "raopt_num_batches": 1539000,
+  "runtime_per_run": "387.29s",
+  "runtime_total": "1936.46s"
+}

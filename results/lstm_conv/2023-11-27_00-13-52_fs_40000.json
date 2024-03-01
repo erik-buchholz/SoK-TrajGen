@@ -1,0 +1,24 @@
+{
+  "dataset": "fs",
+  "epochs": 5000,
+  "num_batches": 40000,
+  "n_train": 2052,
+  "n_test": 1027,
+  "features": [
+    "latlon",
+    "hour",
+    "day",
+    "category"
+  ],
+  "latlon_only": false,
+  "reference_point": [
+    -73.977705979516,
+    40.76959209333479
+  ],
+  "scale_factor": [
+    0.29193802048399675,
+    0.21873962593050322
+  ],
+  "runtime total": 15542.034991040011,
+  "runtime run": 612.0066411695996
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "geolife_spatial",
+  "num_trajectories": 23168,
+  "num_batches": 2000,
+  "epochs": 11,
+  "runtime_total": 2292.1133228800027,
+  "runtime_avg": 764.0377745399988,
+  "losses": [
+    "STD",
+    "NO BCE",
+    "BCE ONLY"
+  ],
+  "features": [
+    "latlon"
+  ],
+  "reference_point": [
+    116.37499995,
+    39.89000165
+  ],
+  "scale_factor": [
+    0.18499995,
+    0.13999835
+  ]
+}

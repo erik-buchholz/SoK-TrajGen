@@ -1,0 +1,27 @@
+{
+  "dataset": "fs",
+  "num_trajectories": 1027,
+  "num_batches": 2000,
+  "epochs": 250,
+  "runtime_total": 2321.002093433999,
+  "runtime_avg": 464.20041883559895,
+  "losses": [
+    "STD",
+    "NO BCE",
+    "BCE ONLY"
+  ],
+  "features": [
+    "latlon",
+    "hour",
+    "day",
+    "category"
+  ],
+  "reference_point": [
+    -73.977705979516,
+    40.76959209333479
+  ],
+  "scale_factor": [
+    0.29193802048399675,
+    0.21873962593050322
+  ]
+}

@@ -1,0 +1,6 @@
+[submodule "RAoPT"]
+	path = RAoPT
+	url = https://github.com/erik-buchholz/RAoPT.git
+[submodule "geopointgan"]
+	path = geopointgan
+	url = https://github.com/erik-buchholz/geopointgan_fork.git
