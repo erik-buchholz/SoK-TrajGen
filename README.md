@@ -44,7 +44,20 @@ Artifacts for PETS'24 paper "SoK: Can Trajectory Generation Combine Privacy and 
 
 ## Citation
 
-TBD
+If you use the code in this repository, please cite the following paper:
+
+```bibtex
+@article{BSW+24,
+  title={{SoK: Can Trajectory Generation Combine Privacy and Utility?}},
+  author={Buchholz, Erik and Abuadbba, Alsharif and Wang, Shuo and Nepal, Surya and Kanhere, Salil S.}
+  journal={Proceedings on Privacy Enhancing Technologies},
+  month={July},
+  year={2024},
+  volume={2024},
+  number={3},
+  address={Bristol, UK}
+}
+```
 
 ## Abstract
 
