@@ -49,7 +49,7 @@ If you use the code in this repository, please cite the following paper:
 ```bibtex
 @article{BSW+24,
   title={{SoK: Can Trajectory Generation Combine Privacy and Utility?}},
-  author={Buchholz, Erik and Abuadbba, Alsharif and Wang, Shuo and Nepal, Surya and Kanhere, Salil S.}
+  author={Buchholz, Erik and Abuadbba, Alsharif and Wang, Shuo and Nepal, Surya and Kanhere, Salil S.},
   journal={Proceedings on Privacy Enhancing Technologies},
   month={July},
   year={2024},
