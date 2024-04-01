@@ -479,6 +479,36 @@ python3 -m stg.eval.raopt_vs_lstm --runs 5 --dataset geolife -g 2 -p 3 --batch_s
 # Runtime GPU Server: 14,653.63s
 ```
 
+## Notes on Reusability
+
+We hope that this Artifact can serve as a starting point for research on generative models for location trajectories
+beyond the reproduction of our paper's results. We include not only the trained models, parameters, and results but
+also our pre-processing code and all utility functions.
+
+### Adding a Dataset
+
+To add additional datasets, the abstract base class `TrajectoryDataset` in `stg/datasets/base_dataset.py` can be used.
+This allows to quickly add further datasets that are suitable for the interfaces required by our scripts.
+The new dataset should then be added to the database factory in `stg/datasets/dataset_factory.py`, and the dict
+`DATASET_CLASSES` in `stg/datasetts/__init__.py`.
+Finally, the parser in `stg/parser/gan_parser.py` has to be extended by the additional value.
+The preprocessing tools in `stg/datasets/preprocessing.py` can aid the preprocessing of additional datasets.
+
+### Adding Models
+
+As for datasets, we provide abstract base classes for the generative models.
+In particular, we offer three different types of base classes in `stg/models/`:
+
+- `base_gan.py`: For classical GAN architectures
+- `base_rnn.py`: For simple RNN-based models
+- `trajGAN.py`: For models based on LSTM-TrajGAN
+
+These base classes offer shared functionality, such as storing and saving parameters.
+Moreover, they offer interfaces to allow quick integration of new models into the evaluation framework.
+By inheriting from these classes, and implementing the required abstract methods, 
+new models can be added to the evaluation framework with minimal effort.
+
+
 ## Contact
 
 **Author:** [Erik Buchholz](https://www.erikbuchholz.de) ([e.buchholz@unsw.edu.au](mailto:e.buchholz@unsw.edu.au))
