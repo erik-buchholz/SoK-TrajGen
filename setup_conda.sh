@@ -23,6 +23,7 @@ conda activate $VENV_NAME
 echo "Running Unittests..."
 if FORCE_TESTS=false RUN_SLOW_TESTS=true python3 -m unittest discover -s test; then
     echo "Setup Successful. Done."
+    echo "Please run 'source ~/miniconda/bin/activate' and then 'conda init' to initialise Conda in your current shell."
     echo "To activate the environment, run 'conda activate $VENV_NAME'"
 else
     echo "Error - Setup unsuccessful."

@@ -154,15 +154,20 @@ source venv/bin/activate  # Replace venv with your environment name
 
 #### Conda Setup
 
-Install conda environment:
+Install conda environment and activate in current shell:
 
 ```shell
 ./setup_conda.sh
+# The following lines are necessary to activate the environment in the current shell
+source ~/miniconda/bin/activate
+conda init
+# Activate the environment
+conda activate stg
 ```
 
 This will create a conda environment with the name `stg` and install the required packages. 
 To modify the environment name, edit the line `VENV_NAME="stg"` in `setup_conda.sh`.
-To activate the environment in your current shell, run:
+To activate the environment run (required after each new shell):
 
 ```shell
 conda activate stg  # Replace stg with your environment name defined in setup_conda.sh
