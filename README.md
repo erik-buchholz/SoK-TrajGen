@@ -58,7 +58,10 @@ If you use the code in this repository, please cite the following paper:
   year={2024},
   volume={2024},
   number={3},
-  address={Bristol, UK}
+  pages={75--93},
+  address={Bristol, UK},
+  doi={10.56553/popets-2024-0068},
+  code = {https://github.com/erik-buchholz/SoK-TrajGen},
 }
 ```
 
